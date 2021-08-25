@@ -1,0 +1,76 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding:0;
+}
+
+/* 화면 감싸기 */
+.wrapper{
+	width: 1900px;	
+}
+
+/* 컨텐츠 감싸기 */
+.wrap{
+	width : 800px;
+	margin: auto;
+}
+
+/* 로그인 부분 */
+.title_wrap {
+	margin: 150px 0;
+	text-align: center;
+}
+.title_wrap>span {
+	font-size: 50px;
+	font-weight: 900;
+}
+
+.login_err {
+	margin-top: 30px;
+	text-align: center;
+	color: red;
+}
+
+/* 중복 제거 */
+.input_box {
+	border: 1px solid black;
+	height: 30px;
+	padding: 10px 16px;
+	display: block;
+	width: 80%;
+	margin: auto;
+} 
+
+.input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	font-size: 28px;
+}
+
+/* 비밀번호 */
+.pw_wrap, .login_btn_wrap, .reg_btn_wrap {
+	margin-top: 40px;
+}
+
+/* 버튼 */
+.login_btn_wrap, .reg_btn_wrap {
+	text-align: center;
+}
+
+.login_btn, .reg_btn {
+	
+	width: 85%;
+	height: 80px;
+	background: #FFCE4F;
+	font-size: 40px;
+	font-weight: 900;
+	color: white;
+	margin: auto;
+}
+
+.clearfix {
+	
+	clear:both;
+}
+
